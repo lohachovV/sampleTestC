@@ -47,13 +47,16 @@ public class AddTwoValuesTests {
 
     @Test
     public void testDivisionTwoPositiveValues () {
-        assertEquals("6 / 2 must be 3", 3, calc.division(6, 2));
+        assertEquals("6 / 2 must be 3", 3.0, calc.division(6, 2));
     }
+
 
     @Test
     public void testSubtractionTwoPositiveValues () {
-        assertEquals("15 - 7 must be 8", 8, calc.subtraction(15, 7));
+        assertEquals("15 - 7 must be 8", 8.0, calc.subtraction(15, 7));
     }
+
+
 
     @Test
     public void testSquareRootOfPositiveValue (){
