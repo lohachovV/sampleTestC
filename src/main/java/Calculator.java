@@ -30,7 +30,7 @@ public class Calculator {
     }
 
     public  double squareNumber (double a){
-        return Math.pow(a, a);
+        return Math.pow(a, 2);
     }
 
 }

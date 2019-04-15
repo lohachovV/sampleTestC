@@ -40,6 +40,31 @@ public class AddTwoValuesTests {
     //TODO
     //add tests for new methods
 
+    @Test
+    public void testMultiplyOfTwoPositiveValues () {
+        assertEquals("10 * 5 must be 50", 50, calc.multiply(10, 5));
+    }
+
+    @Test
+    public void testDivisionTwoPositiveValues () {
+        assertEquals("6 / 2 must be 3", 3, calc.division(6, 2));
+    }
+
+    @Test
+    public void testSubtractionTwoPositiveValues () {
+        assertEquals("15 - 7 must be 8", 8, calc.subtraction(15, 7));
+    }
+
+    @Test
+    public void testSquareRootOfPositiveValue (){
+        assertEquals("Square Root of  100 must be 10", 10.0, calc.squareRoot(100));
+    }
+
+    @Test
+    public void testSquareNumberOfPositiveValue () {
+        assertEquals("Square of number 5 to 2 must be 25", 25.0, calc.squareNumber(5));
+    }
+
     @After
     public void consolePrintAfter() {
         System.out.println("Tests finished!!!");
