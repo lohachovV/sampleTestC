@@ -31,6 +31,12 @@ public class AddTwoValuesTests {
     //TODO
     //add new tests for add() method
 
+    @Test
+    public void testAddNegativeAndPositiveValues () {
+        assertEquals("5 + -3 must be 2", 2, calc.add(5, -3));
+    }
+
+
     //TODO
     //add tests for new methods
 
